@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const experience = () => {
   return (
-    <div>
-      <h1>test</h1>
+    <div id='buttons'>
+      <Link to= "/kenna"><button>Kenna</button></Link>
     </div>
   )
 }
