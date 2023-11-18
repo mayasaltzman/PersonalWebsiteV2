@@ -5,11 +5,6 @@ import Experience from './components/pages/experience';
 import Resume from './components/pages/resume';
 import Projects from './components/pages/projects';
 import Kenna from './components/pages/kenna';
-import Intro from './components/pages/kenna#intro'
-import About from './components/pages/kenna#about'
-import Description from './components/pages/kenna#description'
-import Goals from './components/pages/kenna#goals'
-import CA from './components/pages/kenna#ca'
 
 
 function App() {
@@ -23,11 +18,6 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/kenna" element={<Kenna />} />
-        <Route path="/kenna#intro" element={<Intro />} />
-        <Route path="/kenna#description" element={<Description />} />
-        <Route path="/kenna#goals" element={<Goals />} />
-        <Route path="/kenna#about" element={<About />} />
-        <Route path="/kenna#ca" element={<CA />} />
        </Routes>
       <kenna/>
 
