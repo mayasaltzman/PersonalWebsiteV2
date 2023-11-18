@@ -28,7 +28,8 @@ function App() {
         <Route path="/kenna#goals" element={<Goals />} />
         <Route path="/kenna#about" element={<About />} />
         <Route path="/kenna#ca" element={<CA />} />
-      </Routes>
+       </Routes>
+      <kenna/>
 
 
 

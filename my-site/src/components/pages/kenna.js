@@ -1,18 +1,24 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+
+const scrollToTop = () => {
+    scroll.scrollToTop({ smooth: true, duration: 500 });
+};
 
 const kenna = () => {
     return (
         <div>
-            <h1>Kenna</h1>
+            <h1 onClick={scrollToTop}>Kenna</h1>
 
             <div id='nav-buttons'>
-                <Link to="#intro"><button>Introduction</button></Link>
-                <Link to="#about"><button>About Employer</button></Link>
-                <Link to="#description"><button>Job Description</button></Link>
-                <Link to="#goals"><button>Goals</button></Link>
-                <Link to="#ca"><button>Conclusion + Acknowledgments</button></Link>
+                <ScrollLink to="intro" smooth={true} duration={500}><button>Introduction</button></ScrollLink>
+                <ScrollLink to="about" smooth={true} duration={500}><button>About Employer</button></ScrollLink>
+                <ScrollLink to="description" smooth={true} duration={500}><button>Job Description</button></ScrollLink>
+                <ScrollLink to="goals" smooth={true} duration={500}><button>Goals</button></ScrollLink>
+                <ScrollLink to="ca" smooth={true} duration={500}><button>Conclusion + Acknowledgments</button></ScrollLink>
             </div>
+
 
             <section id='intro'>
                 <h2>Introduction</h2>
