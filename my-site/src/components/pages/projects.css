@@ -1,29 +1,50 @@
-#buttons{
+#buttons {
     font-display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-} 
+}
 
-.project-link{
+.project-link {
     padding: 10px;
     text-decoration: none
 }
 
-.project{
+.project {
     background-color: white;
     width: 300px;
     height: 300px;
     border-radius: 20px;
+    transition: 0.3s;
+    font-family: 'Poppins';
+    border-width: 10px;
 }
 
-#molecule{
- width: 90px;
- height: 90px;
+
+#p1{
+    border-color: #fabc20;
 }
 
-@media (max-width: 650px) {
-    #buttons{
+#p2{
+    border-color: pink;
+}
+
+#p3{
+    border-color: lightblue;
+}
+
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+#molecule {
+    width: 90px;
+    height: 90px;
+}
+
+@media (max-width: 950px) {
+    #buttons {
         display: flex;
         flex-direction: column;
         align-items: center;
