@@ -1,0 +1,67 @@
+h1{
+    font-size: 50px;
+}
+
+#wave{
+    font-size:60px;
+    padding-right: 10px;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pfp{
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    padding-top: 50px;
+}
+
+#body{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+
+}
+
+#body p{
+    width: 70%;
+    font-size: 20px;
+}
+
+#cs{
+    color: purple;
+    font-weight: bold;
+}
+
+#kenna{
+    color: red;
+    font-weight: bold;
+}
+
+#pres{
+    color: blue;
+    font-weight: bold;
+}
+
+#GCC{
+    color: forestgreen;
+    font-weight: bold;
+}
+
+#uni{
+    color: rgb(239, 156, 1);
+    font-weight: bold;
+}
+
+@media (max-width: 950px) {
+    #body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
