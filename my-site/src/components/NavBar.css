@@ -61,7 +61,7 @@ nav .menu span {
 }
 
 /* styling for small screen */
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     nav .menu {
         display: flex;
     }
