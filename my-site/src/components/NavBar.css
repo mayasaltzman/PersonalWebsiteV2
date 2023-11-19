@@ -4,7 +4,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
     top: 0;
 }
 
@@ -36,7 +35,7 @@ nav ul li {
 
 /* psuedo selector so doesn't hightlight when on page note this wont work until link attribute is changed to navlink*/
 #a:not(.active):hover {
-background-color: white;
+    transform: scale(1.05);
 }
 
 nav .menu {
