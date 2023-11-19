@@ -1,0 +1,45 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    padding: 50px;
+    text-decoration: none
+}
+
+.button{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    font-size: 15px;
+    border-color: rgba(255, 28, 28, 0.745);
+    border-width: 10px;
+    transition: 0.3s;
+    font-family: 'Poppins'
+}
+
+.button h3{
+    font-size: 20px;
+}
+
+#kenna-logo{
+    padding-bottom: 15px;
+}
+
+.button:hover{
+    transform: scale(1.05);
+}

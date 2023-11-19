@@ -15,6 +15,10 @@ nav .title {
     color: black;
 }
 
+nav .title:hover {
+    transform: scale(1.05);
+}
+
 nav ul {
     display: flex;
 }
