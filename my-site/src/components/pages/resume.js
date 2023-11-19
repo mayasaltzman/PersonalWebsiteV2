@@ -1,11 +1,15 @@
 import React from 'react'
 
-const resume = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+import PDFViewer from 'pdf-viewer-reactjs'
+
+const ExamplePDFViewer = () => {
+    return (
+        <PDFViewer
+            document={{
+                url: 'https://arxiv.org/pdf/quant-ph/0410100.pdf',
+            }}
+        />
+    )
 }
 
-export default resume
+export default ExamplePDFViewer
