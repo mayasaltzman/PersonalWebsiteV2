@@ -3,7 +3,10 @@ import "./Contact.css"
 
 const projects = () => {
     return (
-        <div>
+        <div id='contact'>
+            <footer>
+                <p>Contact Me</p>
+            </footer>
 
         </div>
     )

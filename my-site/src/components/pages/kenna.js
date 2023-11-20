@@ -1,6 +1,7 @@
 import React from 'react'
 // import { Link } from "react-router-dom";
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import './kenna.css'
 
 const scrollToTop = () => {
     scroll.scrollToTop({ smooth: true, duration: 500 });

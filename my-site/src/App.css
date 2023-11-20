@@ -1,4 +1,12 @@
 body{
     background-color: #FAF9F6;
-    font-family: 'Poppins'
+    font-family: 'Poppins';
+    /* display: flex;
+    flex-direction: column; */
+    min-height: 100vh;
 }
+
+/* .app{
+    flex: 1;
+    padding: 20px;
+} */

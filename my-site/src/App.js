@@ -5,6 +5,7 @@ import Experience from './components/pages/experience';
 import Projects from './components/pages/projects';
 import Kenna from './components/pages/kenna';
 import Home from './components/pages/home';
+import Contact from './components/Contact'
 
 
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <Contact/>
       
       <Routes>
         {/* adding pages in these route tags, curly braces are the components which are the js files */}
