@@ -13,13 +13,13 @@ const kenna = () => {
             <h1 onClick={scrollToTop} id='kenna'>Kenna</h1>
 
             <div id='workterm-buttons'>
-                <ScrollLink to="wt1" smooth={true} duration={500} id='scroll'><button>Summer 2023</button></ScrollLink>
-                <ScrollLink to="wt2" smooth={true} duration={500} id='scroll'><button>Fall 2023</button></ScrollLink>
+                <ScrollLink to="wt1" smooth={true} duration={500} id='scroll'><button>Summer - 2023</button></ScrollLink>
+                <ScrollLink to="wt2" smooth={true} duration={500} id='scroll'><button>Fall - 2023</button></ScrollLink>
             </div>
 
-            <img id ='group-photo' src='kennagroup.jpg' alt='group of people in halloween costumes'/>
+            <img id='group-photo' src='kennagroup.jpg' alt='group of people in halloween costumes' />
 
-            <section id='intro'>
+            <div id='pretext'>
                 <h2>Introduction</h2>
                 <p>
                     While pursuing my degree in Computer Science I have developed an interest in databases and
@@ -42,23 +42,21 @@ const kenna = () => {
                     work
                     term.
                 </p>
-            </section>
-            <section id='about'>
+
                 <h2>About Employer</h2>
                 <p>Kenna is a marketing solutions provider specializing in customer experience management. Founded in 1985 as AppliCan Marketing and rebranded as Kenna 2002. For over three decades Kenna has provided their clients data driven solutions and software with an emphasis on customer first thinking.</p>
                 <p>Today Kenna works with BASF to create software for clients. For the past two decades Kenna has helped BASF build loyal customer relationships which have increased market success. This is done by gaining the trust of growers through their experience with the brand.</p>
                 <p>The current CEO of Kenna is Jeffery Bowles and Kenna’s team continues to grow alongside BASF to better provide them solutions.</p>
-            </section>
+            </div>
+
 
 
             <section id='wt1'>
-                <h2>Work Term One - Summer 2023</h2>
-                <div id='nav-buttons'>
-                    {/* <ScrollLink to="intro" smooth={true} duration={500}><button>Introduction</button></ScrollLink>
-                <ScrollLink to="about" smooth={true} duration={500}><button>About Employer</button></ScrollLink> */}
-                    <ScrollLink to="description" smooth={true} duration={500}><button>Job Description</button></ScrollLink>
-                    <ScrollLink to="goals" smooth={true} duration={500}><button>Goals</button></ScrollLink>
-                    <ScrollLink to="ca" smooth={true} duration={500}><button>Conclusion + Acknowledgments</button></ScrollLink>
+                <h2 id='term-header'>Work Term One - Summer 2023</h2>
+                <div id='workterm-buttons'>
+                    <ScrollLink to="description" smooth={true} duration={500} id='scroll'><button>Job Description</button></ScrollLink>
+                    <ScrollLink to="goals" smooth={true} duration={500} id='scroll'><button>Goals</button></ScrollLink>
+                    <ScrollLink to="ca" smooth={true} duration={500} id='scroll'><button>Conclusion + Acknowledgments</button></ScrollLink>
                 </div>
                 <section id='description'>
                     <h2>Job Description</h2>
@@ -79,13 +77,11 @@ const kenna = () => {
             </section>
 
             <section id='wt2'>
-                <h2>Work Term Two - Fall 2023</h2>
-                <div id='nav-buttons2'>
-                    {/* <ScrollLink to="intro" smooth={true} duration={500}><button>Introduction</button></ScrollLink>
-                <ScrollLink to="about" smooth={true} duration={500}><button>About Employer</button></ScrollLink> */}
-                    <ScrollLink to="description2" smooth={true} duration={500}><button>Job Description</button></ScrollLink>
-                    <ScrollLink to="goals2" smooth={true} duration={500}><button>Goals</button></ScrollLink>
-                    <ScrollLink to="ca" smooth={true} duration={500}><button>Conclusion + Acknowledgments</button></ScrollLink>
+                <h2 id='term-header'>Work Term Two - Fall 2023</h2>
+                <div id='workterm-buttons'>
+                    <ScrollLink to="description2" smooth={true} duration={500} id='scroll'><button>Job Description</button></ScrollLink>
+                    <ScrollLink to="goals2" smooth={true} duration={500} id='scroll'><button>Goals</button></ScrollLink>
+                    <ScrollLink to="ca" smooth={true} duration={500} id='scroll'><button>Conclusion + Acknowledgments</button></ScrollLink>
                 </div>
                 <section id='description2'>
                     <h2>Job Description</h2>
@@ -99,6 +95,7 @@ const kenna = () => {
                 <h2>Conclusion + Acknowledgments</h2>
                 <p>I would like to thank my supervisor Daniel Kostevskii for supporting me throughout the work term. As well as everyone on the Data Management team for being so open and welcoming. All my team members were always there to provide me support and answer any questions. I would like to thank Kenna for fostering such a positive work environment. That wouldn’t be the same without all the amazing people that work there. One of the best things about working at Kenna was the company culture and I would like to thank all the people that planned in person social events despite the remote work environment.</p>
                 <p>Working at Kenna was an amazing experience. I was able to learn a lot about the software development process and view software in a different light. I truly understand the importance of the user's experience thanks to all the QA and software testing I have done. I made so many amazing connections and I look forward to returning to Kenna for my next work term in the Fall!</p>
+                <img src='nick_daniel.png' alt='three people posed like super heros in halloween costumes'/>
             </section>
 
 
