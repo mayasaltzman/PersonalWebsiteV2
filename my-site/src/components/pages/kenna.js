@@ -10,12 +10,14 @@ const scrollToTop = () => {
 const kenna = () => {
     return (
         <div>
-            <h1 onClick={scrollToTop}>Kenna</h1>
+            <h1 onClick={scrollToTop} id='kenna'>Kenna</h1>
 
             <div id='workterm-buttons'>
-                <ScrollLink to="wt1" smooth={true} duration={500}><button>Summer 2023</button></ScrollLink>
-                <ScrollLink to="wt2" smooth={true} duration={500}><button>Fall 2023</button></ScrollLink>
+                <ScrollLink to="wt1" smooth={true} duration={500} id='scroll'><button>Summer 2023</button></ScrollLink>
+                <ScrollLink to="wt2" smooth={true} duration={500} id='scroll'><button>Fall 2023</button></ScrollLink>
             </div>
+
+            <img id ='group-photo' src='kennagroup.jpg' alt='group of people in halloween costumes'/>
 
             <section id='intro'>
                 <h2>Introduction</h2>
@@ -98,6 +100,7 @@ const kenna = () => {
                 <p>I would like to thank my supervisor Daniel Kostevskii for supporting me throughout the work term. As well as everyone on the Data Management team for being so open and welcoming. All my team members were always there to provide me support and answer any questions. I would like to thank Kenna for fostering such a positive work environment. That wouldn’t be the same without all the amazing people that work there. One of the best things about working at Kenna was the company culture and I would like to thank all the people that planned in person social events despite the remote work environment.</p>
                 <p>Working at Kenna was an amazing experience. I was able to learn a lot about the software development process and view software in a different light. I truly understand the importance of the user's experience thanks to all the QA and software testing I have done. I made so many amazing connections and I look forward to returning to Kenna for my next work term in the Fall!</p>
             </section>
+
 
 
         </div>
