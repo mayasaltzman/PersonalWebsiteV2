@@ -10,7 +10,7 @@ const scrollToTop = () => {
 const kenna = () => {
     return (
         <div>
-            <h1 onClick={scrollToTop} id='kenna'>Kenna</h1>
+            <h1 onClick={scrollToTop} id='kenna-header'>Kenna</h1>
 
             <div id='workterm-buttons'>
                 <ScrollLink to="wt1" smooth={true} duration={500} id='scroll'><button>Summer - 2023</button></ScrollLink>

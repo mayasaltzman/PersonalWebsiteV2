@@ -1,9 +1,9 @@
-#kenna {
+#kenna-header {
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: red;
+    color: rgb(213, 0, 0);
 }
 
 #workterm-buttons {
@@ -98,7 +98,7 @@
 }
 
 #term-header{
-    color: red;
+    color: rgb(213, 0, 0);
 }
 
 #ca{
