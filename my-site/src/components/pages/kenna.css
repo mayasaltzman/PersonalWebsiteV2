@@ -1,3 +1,4 @@
+/* clean up CSS to be less repetitive */
 #kenna-header {
     display: flex;
     text-align: center;
@@ -76,7 +77,18 @@
     flex-direction: column;
 }
 
+#description2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #description p{
+    width: 70%;
+}
+
+#description2 p{
     width: 70%;
 }
 
@@ -87,7 +99,18 @@
     flex-direction: column;
 }
 
+#goals2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #goals p{
+    width: 70%;
+}
+
+#goals2 p{
     width: 70%;
 }
 
@@ -96,6 +119,13 @@
     font-size: 15px;
     width: 70%;
 }
+
+#goals2 h3{
+    text-align: left;
+    font-size: 15px;
+    width: 70%;
+}
+
 
 #term-header{
     color: rgb(213, 0, 0);

@@ -85,17 +85,27 @@ const kenna = () => {
                 </div>
                 <section id='description2'>
                     <h2>Job Description</h2>
+                    <p>While I held the same title and worked for the same department as I did in my Summer 2023 work term, my tasks differed. These were a few of my main tasks:<br/><br/>
+                    Through the work term I performed daily stewardship on the Retail Connect Rep Connect application. My goal was to test the tool each morning to ensure it functioned as intended. This included testing the tool’s functionality and comparing data values to backend SQL data.  I reported bugs then created Jira tickets to monitor the fixes of those bugs.<br/><br/>
+                    I performed QA on online retail statements for over 100 retailers for the October Retail Connect Reconciliation season. This required 100% accuracy and diligent eye because the values I was working with were actual dollar amounts that needed to be correct for the client. I did QA in three different stages and tested the tool to prepare for Reconciliation season.
+                    <br/><br/>I was given a long term task to propose a tool update to my supervisor. </p>
                 </section>
                 <section id='goals2'>
                     <h2>Goals</h2>
+                    <h3>1. Improve my attention to detail</h3>
+                    <p>This work term I worked on an application that required high attention to detail. I dealt with data that if not handled carefully will negatively affect clients. I never rushed through my work and I always made sure to double, even triple check when doing QA. Over the work term my attention to detail indeed approved. The QA I performed was smooth and clients were satisfied. I found myself having to redo QA less than I did in the summer work term. I am able to spot bugs and irregularities with tools quicker. Overall I think my increased attention to detail will continue to benefit me as I return to school and in my future as a developer.	 	</p>
+                    <h3>2. Try to solve problems myself first before reaching out</h3>
+                    <p>I noticed that during my summer work term I would often ask questions and then a few minutes later realize I could figure out the answer on my own. This work term, instead of immediately asking a question, I took a few minutes to think about my question and see if I could solve the problem on my own. This didn’t mean I never asked for help. I tried to be more self-sufficient and think before reaching out for help. I noticed doing this helped strengthen my problem solving skills and also increased my confidence. I was able to figure out things on my own and rely on my supervisors a little less. While I did still ask a lot of questions I found answers for myself a lot too.	</p>
+                    <h3>3. Network with more people on different teams</h3>
+                    <p>My ultimate goal is to be a developer. My position on the Data Management team allowed me to make great connections. This term I tried to branch out and make some more connections with developers. I did this by scheduling coffee chats and asking my supervisor to provide me with developer contacts. I successfully had three coffee chats with developers where I learned valuable lessons about their experience. I also networked with many people on other teams at our in person events such as the farm tour, the Halloween party, and the Christmas party. I feel so lucky that I was able to make all these connections during my work term and take in all the advice everyone I spoke with had to offer.</p>
                 </section>
             </section>
 
             <section id='ca'>
                 <h2>Conclusion + Acknowledgments</h2>
-                <p>I would like to thank my supervisor Daniel Kostevskii for supporting me throughout the work term. As well as everyone on the Data Management team for being so open and welcoming. All my team members were always there to provide me support and answer any questions. I would like to thank Kenna for fostering such a positive work environment. That wouldn’t be the same without all the amazing people that work there. One of the best things about working at Kenna was the company culture and I would like to thank all the people that planned in person social events despite the remote work environment.</p>
-                <p>Working at Kenna was an amazing experience. I was able to learn a lot about the software development process and view software in a different light. I truly understand the importance of the user's experience thanks to all the QA and software testing I have done. I made so many amazing connections and I look forward to returning to Kenna for my next work term in the Fall!</p>
-                <img src='nick_daniel.png' alt='three people posed like super heros in halloween costumes'/>
+                <p>I would like to thank my supervisors Daniel Kostevskii and Nicholas Pulsone for supporting me throughout my work terms, as well as everyone on the Data Management team for being so open and welcoming. All my team members were always there to provide me support and answer any questions. I would like to thank Kenna for fostering such a positive work environment which wouldn’t be the same without all the amazing people that work there. One of the best things about working at Kenna was the company culture and I would like to thank all the people that planned in-person social events despite the remote work environment.</p>
+                <p>Working at Kenna was an amazing experience. I made so many amazing connections. I was able to learn a lot about the software development process and view software in a different light. I truly understand the importance of the user's experience thanks to all the QA and software testing I have done. </p>
+                <img src='nick_daniel.png' alt='three people posed like super heros in halloween costumes' />
             </section>
 
 
