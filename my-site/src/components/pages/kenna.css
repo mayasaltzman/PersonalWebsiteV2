@@ -6,29 +6,12 @@
     color: rgb(213, 0, 0);
 }
 
-.kenna-header2 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
 #workterm-buttons {
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
 
-}
-
-#kenna-img {
-    /* display: block; */
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 50%;
-    height: auto; 
-    vertical-align: middle;
-    
 }
 
 #scroll {
@@ -53,21 +36,25 @@
     transform: scale(1.15);
 }
 
+#kenna-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
 
 .text-sections {
     display: flex;
-    text-align: left;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
 
 }
-
-
 
 .text-sections p {
     width: 70%;
 }
-
-
 
 #term-header {
     display: flex;
@@ -91,15 +78,3 @@
 #term-header {
     color: rgb(213, 0, 0);
 }
-
-@media (max-width: 950px) {
-    .text-sections {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-}
-
-
-
