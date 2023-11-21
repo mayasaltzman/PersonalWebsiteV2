@@ -5,7 +5,7 @@ const projects = () => {
     return (
         <div id='contact'>
             <footer>
-                <p>Contact Me</p>
+                <p>mayasaltzman3@gmail.com </p>
             </footer>
 
         </div>

@@ -57,88 +57,109 @@
     width: 70%;
 }
 
-#term-header{
+#kenna-rainbow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+#term-header {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#wt1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#description{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#description2{
+#wt1 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#description p{
+#description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#description2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#description p {
     width: 70%;
 }
 
-#description2 p{
+#description2 p {
     width: 70%;
 }
 
-#goals{
+#goals {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#goals2{
+#goals2 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#goals p{
+#goals p {
     width: 70%;
 }
 
-#goals2 p{
+#goals2 p {
     width: 70%;
 }
 
-#goals h3{
+#goals h3 {
     text-align: left;
     font-size: 15px;
     width: 70%;
 }
 
-#goals2 h3{
+#goals2 h3 {
     text-align: left;
     font-size: 15px;
     width: 70%;
 }
 
+#baseball {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
 
-#term-header{
+
+#term-header {
     color: rgb(213, 0, 0);
 }
 
-#ca{
+#ca {
     display: flex;
     text-align: left;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-#ca img{
+#ca p {
+    width: 70%;
+}
+
+
+#ca img {
     width: 200px;
     float: left;
 }

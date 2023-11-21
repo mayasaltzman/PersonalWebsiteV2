@@ -47,6 +47,7 @@ const kenna = () => {
                 <p>Kenna is a marketing solutions provider specializing in customer experience management. Founded in 1985 as AppliCan Marketing and rebranded as Kenna 2002. For over three decades Kenna has provided their clients data driven solutions and software with an emphasis on customer first thinking.</p>
                 <p>Today Kenna works with BASF to create software for clients. For the past two decades Kenna has helped BASF build loyal customer relationships which have increased market success. This is done by gaining the trust of growers through their experience with the brand.</p>
                 <p>The current CEO of Kenna is Jeffery Bowles and Kenna’s team continues to grow alongside BASF to better provide them solutions.</p>
+                <img src='kenna_rainbow.png' id='kenna-rainbow' alt='infographic showing kennas values'></img>
             </div>
 
 
@@ -73,6 +74,7 @@ const kenna = () => {
                     <p>While I had worked with Excel in the past and felt pretty confident in my Excel skills going into the work term, I had never used Excel in the way I had to while doing this job. At first I was struggling with advanced Excel techniques. However, Excel was a tool I had to use almost daily and because of that my Excel skills did improve. The strengthening of these skills allowed me to complete work more efficiently and in a timelier manner. I clearly saw my skills improve in my ability to do data matches over large datasets. The first time I had to do a task like this I struggled to complete it. But I reached out for help and was supported by one of my colleagues. Now I can perform data matches with ease. While sometimes I still must look up certain formulas, I think that is natural. I continue to improve my Excel skills each day.</p>
                     <h3>3. Improve my quantitative literacy to improve my QA skills</h3>
                     <p>As I began my work term doing QA was the part of my job I was most excited for. Performing QA allowed me to look at the testing aspect of the software development life cycle. The improvement of my Excel skills helped improve my quantitative literacy. Being proficient in Excel helped with my QA methods and my understanding of data points. Additionally, each day I did a sweep of certain tools to determine if there were any bugs. This involved comparing data points. I was able to spot bugs so fixes could be implemented to the software. My ability to spot these bugs assured me that I did indeed improve when it comes to quantitative literacy. I still do ask a lot of questions regarding data sets but with each question I continue to learn.</p>
+                    <img id='baseball' src='baseball.png' alt='selfie of four people at baseball game'></img>
                 </section>
             </section>
 
