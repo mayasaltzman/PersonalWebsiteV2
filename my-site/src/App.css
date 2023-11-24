@@ -1,12 +1,9 @@
 body {
     background-color: #FAF9F6;
     font-family: 'Poppins';
-    /* min-height: 100vh; */
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-    height: 100%;
 }
 
-#footer {
-    padding-bottom: 100px;
-}
+
