@@ -13,20 +13,23 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Contact/>
-      
+
+      <div id='content'>
+        <home />
+      </div>
+
       <Routes>
         {/* adding pages in these route tags, curly braces are the components which are the js files */}
         <Route path="/" element={<Home />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/kenna" element={<Kenna />} />
-       </Routes>
-      <kenna/>
-      <resume/>
-      <home/>
+      </Routes>
 
 
+      <div id='footer'>
+        <Contact />
+      </div>
 
     </div>
   );
