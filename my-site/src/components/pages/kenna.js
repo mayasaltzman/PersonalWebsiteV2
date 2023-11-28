@@ -107,7 +107,7 @@ const kenna = () => {
                 <h2 id='reflection-header'>Conclusion + Acknowledgments</h2>
                 <p>I would like to thank my supervisors Daniel Kostevskii and Nicholas Pulsone for supporting me throughout my work terms, as well as everyone on the Data Management team for being so open and welcoming. All my team members were always there to provide me support and answer any questions. I would like to thank Kenna for fostering such a positive work environment which wouldn’t be the same without all the amazing people that work there. One of the best things about working at Kenna was the company culture and I would like to thank all the people that planned in-person social events despite the remote work environment.</p>
                 <p>Working at Kenna was an amazing experience. I made so many amazing connections. I was able to learn a lot about the software development process and view software in a different light. I truly understand the importance of the user's experience thanks to all the QA and software testing I have done. </p>
-                <img src='nick_daniel.png' alt='three people posed like super heros in halloween costumes' id='kenna-img'/>
+                <img src='nick_daniel.png' alt='three people posed like super heros in halloween costumes' id='kenna-img' className='daniel'/>
             </section>
 
 

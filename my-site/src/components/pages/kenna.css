@@ -79,6 +79,10 @@
     color: rgb(213, 0, 0);
 }
 
+.daniel{
+    width: 300px;
+}
+
 @media (max-width: 320px) {
 
     #workterm-buttons button {
