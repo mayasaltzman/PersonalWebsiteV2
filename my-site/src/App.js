@@ -5,7 +5,6 @@ import Experience from './components/pages/experience';
 import Projects from './components/pages/projects';
 import Kenna from './components/pages/kenna';
 import Home from './components/pages/home';
-import Contact from './components/Contact'
 
 
 
