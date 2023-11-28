@@ -26,11 +26,6 @@ function App() {
         <Route path="/kenna" element={<Kenna />} />
       </Routes>
 
-
-      <div id='footer'>
-        <Contact />
-      </div>
-
     </div>
   );
 }
