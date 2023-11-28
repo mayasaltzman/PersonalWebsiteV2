@@ -1,6 +1,5 @@
 #contact{
-   padding-top: 20px;
-   background-color: #b9d4a0;
+   padding-top: 150px;
    width: 100%;
 }
 
@@ -27,4 +26,13 @@
    color: rgba(0, 0, 0, 0.703);
 }
 
+@media (max-width: 650px) {
+   #footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 0px;
+   }
 
+
+}

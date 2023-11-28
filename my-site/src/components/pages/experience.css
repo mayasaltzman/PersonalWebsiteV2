@@ -43,3 +43,29 @@ h1{
 .button:hover{
     transform: scale(1.05);
 }
+
+@media (max-width: 650px) {
+    h1{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .button{
+        width: 200px;
+        height: 200px;
+        font-size: 10px;
+    }
+
+    .button h3{
+        font-size: 10px;
+    }
+    
+    #kenna-logo{
+        width: 100px;
+        height: 100px;
+    }
+    
+
+
+}

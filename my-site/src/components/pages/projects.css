@@ -51,4 +51,16 @@
         align-items: center;
     }
 
+    #featured{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .project{
+        width: 100x;
+        height: 200px;
+        font-size: 10px;
+
+    }
+
 }

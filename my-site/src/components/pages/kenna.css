@@ -78,3 +78,17 @@
 #term-header {
     color: rgb(213, 0, 0);
 }
+
+@media (max-width: 950px) {
+
+    #workterm-buttons button {
+        font-size: 15px;
+    }
+
+    .text-sections p {
+        font-size: 10px;
+    }
+
+
+
+}
