@@ -23,7 +23,7 @@ const NavBar = () => {
                     <Link to="/projects" id="a">Projects</Link>
                 </lil>
                 <lil>
-                    <a href="Resume.pdf" id="a">Resume</a>
+                    <a href="./PersonalWebsiteV2/Resume.pdf" id="a">Resume</a>
                 </lil>
             </ul>
         </nav>
