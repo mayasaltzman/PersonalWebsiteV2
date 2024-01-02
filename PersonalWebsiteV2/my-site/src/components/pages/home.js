@@ -14,7 +14,7 @@ const home = () => {
           <br /><br />I like to spend my free time in nature or reading. You can find me camping and going on hikes. Over the years I have spent a total of 90 days in the woods.
           I collect vinyls and recently have been enjoying trying out new vegan recipes. <br /><br />I’m inspired by people who want to make the tech industry more inclusive! If this sounds like you, lets chat! <a href="https://github.com/mayasaltzman"><i id="socials" class="fa fa-github"></i></a>
           <a href="https://www.linkedin.com/in/maya-saltzman/"><i id="socials" class="fa fa-linkedin"></i></a></p>
-        <img id="pfp" src='/assets/profilephoto.png' alt='maya' />
+        <img id="pfp" src='assets/profilephoto.png' alt='maya' />
       </div>
 
 
