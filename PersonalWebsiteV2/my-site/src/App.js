@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <NavBar />
 
+
       <div id='content'>
         <home />
       </div>
