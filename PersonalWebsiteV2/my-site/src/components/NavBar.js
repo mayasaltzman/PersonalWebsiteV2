@@ -23,7 +23,7 @@ const NavBar = () => {
                     <Link to="/projects" id="a">Projects</Link>
                 </lil>
                 <lil>
-                    <a href="/assets/Resume.pdf" id="a">Resume</a>
+                    <a href={process.env.PUBLIC_URL +"/assets/Resume.pdf"} id="a">Resume</a>
                 </lil>
             </ul>
         </nav>
