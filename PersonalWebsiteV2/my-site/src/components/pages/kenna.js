@@ -47,7 +47,7 @@ const kenna = () => {
                     <h2 id='reflection-header'>Job Description</h2>
                     <p>As a Data Management Assistant I worked for Data Solutions under the Data Management Team. These were a few of my main responsibilities:</p>
                     <p>I performed QA and software testing across 5 application to ensure 99% accuracy. I used SQL, Jira, Excel, and IBM Notes as QA tools. I learned about the software development life cycle and how an application goes from development to testing/staging to production.</p>
-                    <p>I oversaw the process of setting up employee profiles and territory updates. I managed Jira tickets coordinating responsibilities between Developers and other Data Solutions team members. I performed the overall QA of the ticket.</p>
+                    <p>I oversaw the process of setting up employee profiles and territory updates. I managed Jira tickets coordinating responsibilities between Developers and other Data Solutions team members. I performed the overall QA of the tickets.</p>
                     <p>I helped create a database dictionary for employee training. I wrote SQL queries to access data points specific applications. The database dictionary will be a helpful tool for future Kenna employees and I am glad that I got to make an impact to help the company.</p>
                 </section>
                 <section id='goals' class="text-sections">
@@ -72,7 +72,7 @@ const kenna = () => {
                 <section id='description2' class="text-sections">
                     <h2 id='reflection-header'> Job Description</h2>
                     <p>While I held the same title as I did in my Summer 2023 work term, my tasks differed. These were a few of my main tasks:<br/><br/>
-                    I performed daily stewardship on the Retail Connect Rep Connect application. My goal was to test the tool each morning to ensure it functioned as intended. This included testing the tool’s functionality and comparing data values to backend SQL data.  I reported bugs then created Jira tickets to monitor the fixes of those bugs.<br/><br/>
+                    I performed daily stewardship on an application. My goal was to test the tool each morning to ensure it functioned as intended. This included testing the tool’s functionality and comparing data values to backend SQL data.  I reported bugs then created Jira tickets to monitor the fixes of those bugs.<br/><br/>
                     I performed QA on online retail statements for over 100 retailers. This required 100% accuracy and diligent eye. I did QA in three different stages and tested the tool.
                     <br/><br/>I created a tool update proposal to make the companies main application more user friendly. <br/><br/> Lastly, I preformed a code review on a code base to reduce code redundancy and increase efficiency in updates to the code base.</p>
                 </section>
