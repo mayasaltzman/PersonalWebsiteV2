@@ -20,7 +20,7 @@ function App() {
 
       <Routes>
         {/* adding pages in these route tags, curly braces are the components which are the js files */}
-        <Route path="/" element={<Home />} />
+        <Route path="/PersonalWebsiteV2" element={<Home />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/kenna" element={<Kenna />} />

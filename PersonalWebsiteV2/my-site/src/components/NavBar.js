@@ -7,7 +7,7 @@ const NavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false) //track if hamburger menu is selected
     return (
         <nav>
-            <Link to="/" className="title">Maya Saltzman</Link>
+            <Link to="/PersonalWebsiteV2" className="title">Maya Saltzman</Link>
             {/* reverse value of hamburger menu so it opens/closes with arrow functions */}
             <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
                 {/* spans are lines of hamburger menu */}
