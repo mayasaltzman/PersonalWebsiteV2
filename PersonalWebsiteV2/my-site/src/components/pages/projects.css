@@ -3,12 +3,11 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-bottom: 300px;
 }
 
 .project-link {
     padding: 10px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .project {
