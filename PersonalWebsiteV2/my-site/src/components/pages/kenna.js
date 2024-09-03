@@ -13,8 +13,8 @@ const kenna = () => {
             <h1 onClick={scrollToTop} id='kenna-header'>Kenna</h1>
 
             <div id='workterm-buttons'>
-                <ScrollLink to="wt1" smooth={true} duration={500} id='scroll'><button>Summer - 2023</button></ScrollLink>
-                <ScrollLink to="wt2" smooth={true} duration={500} id='scroll'><button>Fall - 2023</button></ScrollLink>
+                <ScrollLink to="wt1" smooth={true} duration={500} id='scroll'><button>Data Management</button></ScrollLink>
+                <ScrollLink to="wt2" smooth={true} duration={500} id='scroll'><button>Application Development</button></ScrollLink>
             </div>
 
             <img id='kenna-img' src={process.env.PUBLIC_URL +'/assets/kennagroup.jpg'} alt='group of people in halloween costumes' />
@@ -22,10 +22,7 @@ const kenna = () => {
             <div id='pretext' class="text-sections">
                 <h2 id='reflection-header'>Introduction</h2>
                 <p>
-                    While pursuing my degree in Computer Science I developed an interest in database development. I spent eight months as a Data Management Assistant at Kenna where I
-                    got to
-                    explore my interest in databases and expand my knowledge on quality assurance (QA) and software
-                    testing.
+                    While pursuing my degree in Computer Science I have completed three work terms at Kenna. Two in the Data Management Department and another as an Application Developer.
                 </p>
 
                 <h2 id='reflection-header'>About Employer</h2>
@@ -37,7 +34,7 @@ const kenna = () => {
 
 
             <section id='wt1' class="text-sections">
-                <h2 id='term-header'>Work Term One - Summer 2023</h2>
+                <h2 id='term-header'>Work Term One and Two - Data Management</h2>
                 <div id='workterm-buttons'>
                     <ScrollLink to="description" smooth={true} duration={500} id='scroll'><button>Job Description</button></ScrollLink>
                     <ScrollLink to="goals" smooth={true} duration={500} id='scroll'><button>Goals</button></ScrollLink>
@@ -45,10 +42,11 @@ const kenna = () => {
                 </div>
                 <section id='description' class="text-sections">
                     <h2 id='reflection-header'>Job Description</h2>
-                    <p>As a Data Management Assistant I worked for Data Solutions under the Data Management Team. These were a few of my main responsibilities:</p>
+                    <p>As a Data Management Assistant I worked for Data Solutions under the Data Management Team. These were my main responsibilities:</p>
                     <p>I performed QA and software testing across 5 application to ensure 99% accuracy. I used SQL, Jira, Excel, and IBM Notes as QA tools. I learned about the software development life cycle and how an application goes from development to testing/staging to production.</p>
                     <p>I oversaw the process of setting up employee profiles and territory updates. I managed Jira tickets coordinating responsibilities between Developers and other Data Solutions team members. I performed the overall QA of the tickets.</p>
                     <p>I helped create a database dictionary for employee training. I wrote SQL queries to access data points specific applications. The database dictionary will be a helpful tool for future Kenna employees and I am glad that I got to make an impact to help the company.</p>
+                    <p>I created a tool update proposal to make the companies main application more user friendly. <br/><br/> Lastly, I preformed a code review on a code base to reduce code redundancy and increase efficiency in updates to the code base.</p>
                 </section>
                 <section id='goals' class="text-sections">
                     <h2 id='reflection-header'>Goals</h2>
@@ -63,7 +61,7 @@ const kenna = () => {
             </section>
 
             <section id='wt2' class="text-sections">
-                <h2 id='term-header'>Work Term Two - Fall 2023</h2>
+                <h2 id='term-header'>Work Term Three - Application Development</h2>
                 <div id='workterm-buttons'>
                     <ScrollLink to="description2" smooth={true} duration={500} id='scroll'><button>Job Description</button></ScrollLink>
                     <ScrollLink to="goals2" smooth={true} duration={500} id='scroll'><button>Goals</button></ScrollLink>
@@ -71,30 +69,38 @@ const kenna = () => {
                 </div>
                 <section id='description2' class="text-sections">
                     <h2 id='reflection-header'> Job Description</h2>
-                    <p>While I held the same title as I did in my Summer 2023 work term, my tasks differed. These were a few of my main tasks:<br/><br/>
-                    I performed daily stewardship on an application. My goal was to test the tool each morning to ensure it functioned as intended. This included testing the tool’s functionality and comparing data values to backend SQL data.  I reported bugs then created Jira tickets to monitor the fixes of those bugs.<br/><br/>
-                    I performed QA on online retail statements for over 100 retailers. This required 100% accuracy and diligent eye. I did QA in three different stages and tested the tool.
-                    <br/><br/>I created a tool update proposal to make the companies main application more user friendly. <br/><br/> Lastly, I preformed a code review on a code base to reduce code redundancy and increase efficiency in updates to the code base.</p>
+                    <p>As an Application Developer I created full stack web applications using ReactJS, NodeJS, SQL, HTML/CSS and Lotus Script. 
+                        We operated in an agile development environment where I used Jira to track tickets, BitBucket for version control, and Jenkins for deployment.
+                    </p>
+                    <br></br>
+                    <p>Some of my main responsibilites included:</p>
+                    <br></br>
+                    <p>Leading a web application migration from legacy Lotus Script to modern ReactJS and NodeJS.
+                    </p>
+                    <br></br>
+                    <p>Developing a new web application to enable seamless DocuSign integration for e-documents</p>
+                    <br></br>
+                    <p>Implementing SQL backend stored procedures for annual program rewards calculators to visualize the data.</p>
+                    <br></br>
+                    <p>Transitioning front-end Lotus Script code into a SQL stored procedures to simplify development for future developers.</p>
                 </section>
                 <section id='goals2' class="text-sections">
                     <h2 id='reflection-header'>Goals</h2>
-                    <h3 id='goal-header'>1. Improve my attention to detail</h3>
-                    <p>This work term I worked on an application that required high attention to detail. I dealt with data that if not handled carefully will negatively affect clients. I never rushed through my work and I always made sure to double, even triple check when doing QA. The QA I performed was accurate and clients were satisfied. I am able to spot bugs and irregularities. My increased attention to detail will continue to benefit me as I return to school and in my future as a developer.</p>
-                    <h3 id='goal-header'>2. Try to solve problems myself first before reaching out</h3>
-                    <p>I noticed that during my summer work term I would often ask questions and then a few minutes later realize I could figure out the answer on my own. This work term, instead of immediately asking a question, I took a few minutes to think about my question and see if I could solve the problem on my own. I tried to be more self-sufficient and think before reaching out for help. I noticed doing this helped strengthen my problem solving skills and also increased my confidence.</p>
-                    <h3 id='goal-header'>3. Network with more people on different teams</h3>
-                    <p>My position on the Data Management team allowed me to make great connections. This term I tried to branch out and make some more connections with developers. I successfully had four coffee chats with developers where I learned valuable lessons about their experience. I also networked with many people on other teams at our in person events such as the farm tour, the Halloween party, and the Christmas party. I feel so lucky that I was able to make all these connections during my work term and take in all the advice everyone I spoke with had to offer.</p>
+                    <h3 id='goal-header'>1. Improve my programming speed</h3>
+                    <p>I used to be an overly cautious programmer and would second guess my work. This work term increased my confidence resulting in an increase in my programming speed. I was able to meet deadlines and complete work in a timely manner. My supervisor praised me for my ability to meet deadlines.</p>
+                    <h3 id='goal-header'>2. Solve problems independently using critical thinking</h3>
+                    <p>My problem solving skills have increased a lot since beginning this role. The more time I spent working the more comfortable I felt solving problems on my own. I was able to work independently on a lot of tasks and take on large independent development roles.</p>
+                    <h3 id='goal-header'>3. Learn as much as possible</h3>
+                    <p>I learned so much during my time in this position. Having my first Developer role allowed me to learn a lot about modern and legacy programming technologies. I am more familiar with the software development life cycle. I am much more confident working with SQL and Javascript than I was before. This was also my first work term that wasn't remote so I learned how conduct myself in an in person office environment.</p>
                 </section>
             </section>
 
             <section id='ca' class="text-sections">
                 <h2 id='reflection-header'>Conclusion + Acknowledgments</h2>
-                <p>I would like to thank my supervisors Daniel Kostevskii and Nicholas Pulsone for supporting me throughout my work terms, as well as everyone on the Data Management team for being so open and welcoming. All my team members were always there to provide me support and answer any questions. I would like to thank Kenna for fostering such a positive work environment which wouldn’t be the same without all the amazing people that work there. One of the best things about working at Kenna was the company culture and I would like to thank all the people that planned in-person social events despite the remote work environment.</p>
-                <p>Working at Kenna was an amazing experience. I made so many amazing connections. I was able to learn a lot about the software development process and view software in a different light. I truly understand the importance of the user's experience thanks to all the QA and software testing I have done. </p>
+                <p>I would like to thank my supervisors for all the support throughout my time at Kenna. I would like to thank Kenna for fostering such a positive work environment which wouldn’t be the same without all the amazing people that work there. One of the best things about working at Kenna was the company culture and I would like to thank all the people that planned social events that made work so fun.</p>
+                <p>Working at Kenna was an amazing experience and I have learned so much in my three work terms there. </p>
                 <img src={process.env.PUBLIC_URL +'/assets/nick_daniel.png'} alt='three people posed like super heros in halloween costumes' id='kenna-img' className='daniel'/>
             </section>
-
-
 
         </div>
     )
