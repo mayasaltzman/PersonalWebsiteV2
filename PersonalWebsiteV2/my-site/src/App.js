@@ -5,6 +5,7 @@ import Experience from './components/pages/experience';
 import Projects from './components/pages/projects';
 import Kenna from './components/pages/kenna';
 import Home from './components/pages/home';
+import Coop from './components/pages/coop';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/kenna" element={<Kenna />} />
+        <Route path="/coop" element={<Coop />} />
       </Routes>
 
     </div>
